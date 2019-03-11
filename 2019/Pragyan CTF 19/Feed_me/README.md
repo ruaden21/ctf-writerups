@@ -27,7 +27,7 @@ Open Terminal and check the `file` command. It is a ELF 64-bit object. Let run i
 It gives us 3 numbers. Drop it in IDA.
 
 <p align = "center">
-    <img src="./images/drop_it_in_IDA.png">
+    <img src="./images/drop_it_in_IDA.PNG">
 </p>
 
 It creates 3 randrom numbers, prints them on the screen then asks for our input. It checks for invalid input, if any character is out of number range (ascii 48d - 57d) and minus sign (ascii 45d), drops program.
@@ -35,7 +35,7 @@ It creates 3 randrom numbers, prints them on the screen then asks for our input.
 Then it converts our input into 3 numbers. Open the stack view to see where the `s`, `&nptr`, `&v15` are
 
 <p align = "center">
-    <img src="./images/input_stack_view.png">
+    <img src="./images/input_stack_view.PNG">
 </p>
 
 Each of 3 numbers is 10-byte storage. So the input we will put in the program has the form like 
@@ -55,7 +55,7 @@ v11 == v11 + v9
 Run program again and get 3 random numbers. [Caculate](https://www.mathportal.org/calculators/system-of-equations-solver/system-3x3.php) the fuction. We got
 
 <p align = "center">
-    <img src="./images/caculate_online.png">
+    <img src="./images/caculate_online.PNG">
 </p>
 
 `Feed` the program.
