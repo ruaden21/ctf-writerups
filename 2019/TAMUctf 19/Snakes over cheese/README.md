@@ -20,7 +20,7 @@ Reversing | 100 | Nah
 
 Try to decomplie it with [Easy Python Decompiler](https://sourceforge.net/projects/easypythondecompiler/) then we get a py file. Alter it then we get the flag.
 
-<p>
+<p align="center">
     <img src = "./images/flag.png">
 </p>
 
